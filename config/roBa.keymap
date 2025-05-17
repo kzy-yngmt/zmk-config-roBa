@@ -70,7 +70,7 @@
 &kp Q           &kp W             &kp E             &kp R             &kp T                                              &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A           &kp S             &kp D             &kp F             &kp G        &kp LS(LG(S))         &kp MINUS       &kp H      &kp J  &kp K      &kp L    &kp COLON
 &mt LSHIFT Z    &kp X             &kp C             &kp V             &kp B        &kp RIGHT_ARROW       &kp LEFT_ARROW  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 6 LANGUAGE_1  &lt 3 SPACE  &lt 1 LANGUAGE_2      &kp BACKSPACE   &kp ENTER                             &to_layer_0 DEL
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 6 LANGUAGE_1  &lt 3 SPACE  &lt 2 LANGUAGE_2      &kp BACKSPACE   &kp ENTER                             &to_layer_0 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -85,12 +85,12 @@
             >;
         };
 
-        ARROW {
+        scroll-simbol {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans      &kp PLUS
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL   &kp MINUS
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_N3        &kp PERIOD  &kp SLASH
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans           &trans                                                         &kp ASTERISK
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                                &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp TILDE             &kp EQUAL              &kp MINUS
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp BACKSLASH         &kp PERIOD             &kp SLASH
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans           &trans                                                                         &kp ASTERISK
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
