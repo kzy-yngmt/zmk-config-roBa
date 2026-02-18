@@ -72,8 +72,6 @@
 &mt LSHIFT Z    &kp X               &kp C             &kp V             &kp B        &lt 1 RIGHT_ARROW      &kp LEFT_ARROW  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_SHIFT  &lt 1 LEFT_CONTROL  &kp LEFT_COMMAND  &lt 6 LANGUAGE_1  &lt 3 SPACE  &lt 2 LANGUAGE_2       &kp BACKSPACE   &kp ENTER                             &to_layer_0 DEL
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         Simbol {
